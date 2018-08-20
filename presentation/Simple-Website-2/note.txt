@@ -1,0 +1,8 @@
+.slideTitle {
+	position: relative;
+	margin: 0px auto;
+	top: 50px;
+	width: 55%;
+	color: rgba(250, 250, 250, 0.7);
+	font-size: 54px;
+}

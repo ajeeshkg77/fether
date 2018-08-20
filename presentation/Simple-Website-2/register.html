@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0" >
+	<title>Simple Website</title>
+	<link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poly" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="headerNav">
+	<i class="material-icons">person_add</i>
+	<i class="material-icons">notifications</i>
+	<i class="material-icons">rss_feed</i>
+</div>
+<h1>Simple Website</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="register.html">Register</a></li>
+<li><a href="audio.html">Audio</a></li>
+<li><a href="video.html">Video</a></li>
+<li><a href="canvas.html">Canvas</a></li>
+<li><a href="svg.html">SVG</a></li>
+</ul>
+<div class="mobNavBtn">
+	<i class="material-icons">menu</i>
+	<span>MENU</span>
+	<div class="mobNavBtnDrop">
+		<a href="index.html">Home</a>
+		<a href="register.html">Register</a>
+		<a href="audio.html">Audio</a>
+		<a href="video.html">Video</a>
+		<a href="canvas.html">Canvas</a>
+		<a href="svg.html">SVG</a>
+	</div>
+</div>
+</nav>
+<article>
+<section>
+<fieldset>
+	<legend>Rgister Here</legend>
+	<form name="registerForm" method="post" action="register.html">
+	<table cellspacing="10">
+	<tr>
+	<td><label for="name">Name</label></td>
+	<td><input type="text" autocomplete="off" name="name" required="true" placeholder="Name"></td>
+	</tr>
+	<tr>
+	<td><label for="email">E-Mail</label></td>
+	<td><input type="email" autocomplete="off" name="email" required="true" placeholder="E-Mail"></td>
+	</tr>
+	<tr>
+	<td><label for="password">Password</label></td>
+	<td><input type="password" name="password" required="true" placeholder="Password"></td>
+	</tr>
+	<tr>
+	<td><label for="address">Address</label></td>
+	<td><textarea autocomplete="off" cols="22" rows="5" name="address"></textarea></td>
+	</tr>
+	<tr>
+	<tr>
+	<td><label for="gender">Gender</label></td>
+	<td><input type="radio" name="gender" required="true" value="male"> Male <input type="radio" name="gender" required="true" value="female"> Female</td>
+	</tr>
+	<tr>
+	<td><label for="dob">Date of birth</label></td>
+	<td><input type="date" required="true" min="1900-01-01" max="2000-01-01" name="dob"></td>
+	</tr>
+	<tr>
+	<td><label for="phone">Phone</label></td>
+	<td><input type="number" autocomplete="off" maxlength="10" required="true" name="phone" placeholder="Phone"></td>
+	</tr>
+	<tr>
+	<td><label for="nationality">Nationality</label></td>
+	<td><select name="nationality">
+		<option value="indian">Indian</option>
+		<option value="american" selected>American</option>
+		<option value="canadian">Canadian</option>
+		<option value="argentine">Argentine</option>
+	</select></td>
+	</tr>
+	<tr>
+	<td><label for="languages">Languages Known</label></td>
+	<td><input type="checkbox" name="malayalam" value="malayalam"> Malayalam
+	<input type="checkbox" name="english" value="english"> English
+	<input type="checkbox" name="hindi" value="hindi"> Hindi
+	</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td><input type="submit" name="register" value="Register"></td>
+	</tr>
+	</table>
+	</form>
+</fieldset>
+</section>
+<br><br><a href="index.html">Home</a>
+</article>
+<!-- <aside>
+	<h2>Top Stories</h2>
+	<div class="storyCard">
+		<p>Stories goes here Stories goes here Stories goes here Stories goes here Stories goes here Stories goes here</p>
+	</div>
+</aside> -->
+<footer>
+	<p>Copyright @ All rights reserved by Simple Website</p>
+</footer>
+</div>
+</body>
+</html>
