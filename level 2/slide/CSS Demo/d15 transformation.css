@@ -1,0 +1,10 @@
+div{
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+	/*translate 50px from both x and y axis*/
+	/*transform: translate(50px,50px); */
+	transform: rotate(-20deg);
+	/*transform: scale(2,2);*/
+	/*transform: skewX(10deg);*/
+}

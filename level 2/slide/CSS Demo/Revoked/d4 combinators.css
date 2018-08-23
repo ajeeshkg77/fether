@@ -1,0 +1,19 @@
+/*descendants*/
+#div1 p{
+	color: red;
+}
+
+/*children*/
+#div2>p{
+	color: green;
+}
+
+/*immediate adjacent siblings*/
+#div3+p{
+	color: blue;
+}
+
+/*general sibling selector*/
+#div4~article{
+	color: #d742f4;
+}

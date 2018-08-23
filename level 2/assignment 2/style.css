@@ -1,0 +1,152 @@
+.nav{
+
+    height: 40px;
+    width:auto;
+
+}
+
+.nav ul li{
+    list-style:none;
+    text-decoration:none;
+    display: inline-block;
+    padding: 10px;
+    padding-right:20px;
+    float: right;
+    }
+.nav ul li a { 
+    text-decoration: none;
+    color:#FFF;
+    font-family:Calibri;
+    }
+.nav ul li a:hover {
+    color: #6be0d6;}
+.nav ul li a:active{
+    color: #6be0d6;
+    }
+img
+{
+    margin: 0px;
+    margin-left: 0px;
+    position: relative;
+}
+.mobNavBtn {
+    font-size: 18px;
+    padding-top: 8px;
+    margin-left: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: none;
+}
+.mobNavBtnDrop{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-height: 200px;
+    background: #005b96;
+    z-index: 1;
+    display: none;
+}
+.mobNavBtn:hover .mobNavBtnDrop{
+    display: block;
+}
+.mobNavBtn i {
+    float: right;
+    margin-right: 25px;
+}
+.mobNavBtn a {
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    border-top: 1px solid lightgray;
+    color: #FFFFFF;
+}
+.mobNavBtn a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+/** {
+    box-sizing: border-box;
+}*/
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    left: 0px;
+    
+ position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+ul:hover
+{
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+     margin: 4px 15px;
+ }
+ /*.imgicon
+ {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+ }*/
+ .btn
+ {
+    background: rgba(255, 130, 0, 1);
+    position: relative;
+  
+    border-radius: 7px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+        padding: 0.5em 1em;
+ }
+ #rig
+ {
+   float: right;
+   right: 20px;
+
+ }
+ #rig1
+ {
+   float: right;
+ right: 50px;
+
+ }

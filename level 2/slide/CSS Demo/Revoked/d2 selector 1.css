@@ -1,0 +1,35 @@
+/*attribute selector*/
+[data-vegitable]{
+	color: green;
+}
+
+/*attribute value selector*/
+[data-vegitable="fruit"]
+{
+	color: red;
+}
+
+/*attribute word in value selector*/
+[data-vegitable~="coconut"]{
+	color: yellow;
+}
+
+/*substring attribute selectors*/
+[data-need|="must"]
+{
+	color: white;
+}
+
+[data-need^="req"]{
+	color: red;
+}
+
+[data-need$="essential"]{
+	text-decoration: overline;
+	color: blue;
+}
+
+[data-need*="liquid"]{
+	text-decoration: line-through;
+	font-weight: bold;
+}
